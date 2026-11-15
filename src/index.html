@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Yogyakarta & Lombok Tour Packages | Jogja Tours</title>
+
+    <meta
+      name="description"
+      content="Explore unforgettable tour packages in Yogyakarta and Lombok. Discover Borobudur Temple, beautiful beaches, local culture, and amazing Indonesian destinations with Jogja Tours."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://domainkamu.com/" />
+
+    <!-- Tailwind CSS -->
+    <link href="./output.css" rel="stylesheet" />
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Refenrece https://luxsali.framer.website/ -->
+  </head>
+
+  <body class="font-poppins">
+    <!-- Navbar -->
+
+    <header id="navbar" class="absolute top-0 md:top-6 left-0 w-full z-50">
+      <div
+        class="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between bg-black/25 backdrop-blur-xl border border-white/15 text-white md:rounded-3xl"
+      >
+        <!-- Logo -->
+        <a href="#" class="text-xl font-bold flex items-center gap-2">
+          <span class="text-amber-400">Jogja</span>
+          <span>Tours.</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
+          <a href="#" class="hover:text-amber-400 transition-colors">Home</a>
+          <a href="#" class="hover:text-amber-400 transition-colors">Tours</a>
+          <a href="#" class="hover:text-amber-400 transition-colors">Gallery</a>
+          <a href="#" class="hover:text-amber-400 transition-colors">About</a>
+          <a href="#" class="hover:text-amber-400 transition-colors">Contact</a>
+        </nav>
+
+        <!-- CTA & Mobile Toggle -->
+        <div class="flex items-center space-x-4">
+          <a
+            href="#"
+            class="hidden sm:inline-flex items-center justify-center px-6 py-3 text-xs font-semibold uppercase bg-amber-400 text-black rounded-full hover:bg-white transition-colors"
+          >
+            Book Now
+          </a>
+          <button id="menu-btn" class="md:hidden focus:outline-none p-2">
+            <i class="fa-solid fa-bars text-xl"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-[#111C1B]/95 backdrop-blur-xl border border-white/10 px-6 py-4"
+      >
+        <nav class="flex flex-col space-y-4 text-sm font-medium text-gray-300">
+          <a href="#" class="hover:text-white transition-colors">Home</a>
+          <a href="#" class="hover:text-white transition-colors">Tours</a>
+          <a href="#" class="hover:text-white transition-colors">Gallery</a>
+          <a href="#" class="hover:text-white transition-colors">About</a>
+          <a href="#" class="hover:text-white transition-colors">Contact</a>
+          <a
+            href="#"
+            class="inline-block text-center py-2 text-xs font-semibold uppercase tracking-wider bg-amber-400 text-black rounded-full"
+            >Book Now</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative min-h-screen flex items-center text-white">
+      <div class="absolute inset-0 z-0">
+        <img
+          src="frontend/img/hero-1.jpg"
+          alt="Scenic Indonesian tourism destination in Yogyakarta and Lombok"
+          fetchpriority="high"
+          loading="eager"
+          decoding="async"
+          class="w-full h-full object-cover opacity-80"
+        />
+        <div
+          class="absolute inset-0 bg-linear-to-r from-[#080D0D]/95 via-[#101817]/70 to-[#101817]/10"
+        ></div>
+        <div
+          class="absolute inset-0 bg-linear-to-t from-[#080D0D]/80 via-transparent to-black/20"
+        ></div>
+      </div>
+      <div class="relative z-10 flex flex-col gap-6 max-w-5xl px-5 md:px-24">
+        <div
+          class="w-fit flex items-center gap-3 px-4 py-2 rounded-full border border-amber-300"
+        >
+          <span class="w-2 h-2 rounded-full bg-amber-400"></span>
+          <span class="text-xs tracking-[0.25em] uppercase text-amber-200"
+            >Discover Indonesia</span
+          >
+        </div>
+        <div class="flex flex-col gap-4">
+          <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
+            Explore the Beauty of
+            <span class="text-amber-400">Yogyakarta</span>
+            & Lombok with Our Tour
+            <span class="text-amber-400">Experiences</span>
+          </h1>
+          <p class="max-w-xl text-white/75 font-light leading-relaxed">
+            Nikmati pengalaman liburan tak terlupakan dengan menjelajahi
+            keindahan alam, kekayaan budaya, dan destinasi istimewa di
+            Yogyakarta dan Lombok.
+          </p>
+        </div>
+        <div>
+          <a
+            href="#"
+            class="w-full md:w-fit flex items-center justify-center gap-3 px-7 py-4 bg-amber-400 text-black font-semibold rounded-full hover:bg-white transition-all transform hover:scale-105"
+          >
+            Explore Destinations
+            <span
+              class="w-6 h-6 rounded-full bg-green-950 text-white flex items-center justify-center text-xs"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <script>
+      // Mobile menu toggle
+      const menuBtn = document.getElementById("menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
